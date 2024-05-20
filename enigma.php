@@ -128,7 +128,7 @@ $rotors = [
     'BDFHJLCPRTXVZNYEIWGAKMUSQO'   // Ротор III
 ];
 
-$reflector = 'YRUHQSLDPXNGOKMIEBFZCWVJAT';  // Отражатель B
+$reflector = 'YRUHQSLDPXNGOKMIEBFZCWVJAT';  // Отражатель
 $rotorPositions = ['A', 'A', 'A'];  // Начальные позиции роторов
 
 $enigma = new Enigma($rotors, $reflector, $rotorPositions);
